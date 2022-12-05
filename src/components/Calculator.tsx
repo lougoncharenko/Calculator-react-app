@@ -16,6 +16,11 @@ const calculate = () => {
     const total = eval(equation)
     document.getElementById('results').innerHTML = total
 }
+
+const clearScreen = () => {
+    document.getElementById('results').innerHTML = ''
+}
+
   return (
     <div className='calculator-grid'>
     <div
@@ -23,7 +28,7 @@ const calculate = () => {
     id = 'results'>
     </div> 
   
-    <button className='span-two'>AC</button>
+    <button onClick = {clearScreen} className='span-two'>AC</button>
     <button>DEL</button>
     <button value = '/' onClick={handleClick}>÷</button>
     <button value = '1' onClick={handleClick}>1</button>
