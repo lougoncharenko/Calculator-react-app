@@ -2,6 +2,8 @@
 
 #  REACT Calculator App
 
+<img width="791" alt="Screenshot 2022-12-05 at 10 05 47 AM 2" src="https://user-images.githubusercontent.com/93098869/205670992-b56324bb-0150-4e23-877d-0036290339f2.png">
+
 </div>
 
 ## About this Project:
