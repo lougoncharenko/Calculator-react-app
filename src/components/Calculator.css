@@ -1,0 +1,22 @@
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  }
+
+  button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(47, 46, 46);
+    background-color: rgba(255, 255, 255, .75);
+  }
+
+  .span-two {
+    grid-column: span 2;
+  }
+
+  .output {
+    grid-column: 1 / -1;
+  }
